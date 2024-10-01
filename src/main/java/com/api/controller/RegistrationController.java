@@ -24,4 +24,8 @@ public class RegistrationController {
         RegistrationDto reg = registrationService.createRegistrationDto(registrationDto);
         return new ResponseEntity<>(reg, HttpStatus.CREATED);
     }
+
+    public void test(){
+        System.out.println("Hello");
+    }
 }
